@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rock Paper Chroma</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="RockPaperScissors.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="display">
+        <div style="display: grid; grid-template-columns: 70% 30%">
+            <div id="logo">Rock Paper Chroma</div>
+            <div class="button" onclick="reset()">Reset</div>
+        </div>
+        <div id="view">
+            <div id="player_wins">Player Wins:</div>
+            <div id="computer_wins">Computer Wins:</div>
+            <div class="counts" id="player_count">0</div>
+            <div class="counts" id="computer_count">0</div>
+        </div>
+    </div>
+
+    <div class="controls">
+        <div class="buttons">
+            <div class="button" onclick="selectRock()">Rock</div>
+            <div class="button" onclick="selectPaper()">Paper</div>
+            <div class="button" onclick="selectScissor()">Scissor</div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

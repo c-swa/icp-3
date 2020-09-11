@@ -1,0 +1,101 @@
+.container {
+    background: inherit;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+    width: 50%;
+    height: 50%;
+    font-family: monospace;
+}
+
+.display {
+    background: darkgrey;
+    font-family: inherit;
+    padding: 3px;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+.display #logo {
+    background: slategrey;
+    color: silver;
+    font-family: "American Typewriter", monospace;
+    font-size: 22px;
+    padding: 3px 3px 3px 10px;
+    margin: 0.5rem;
+    border-radius: 4px;
+}
+
+.display .button {
+    background: slategrey;
+    color: silver;
+    font-family: "American Typewriter", monospace;
+    text-align: center;
+    font-size: 22px;
+    padding: 3px 3px 3px 10px;
+    margin: 0.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.display .button:hover {
+    background: #565e64;
+    color: black;
+}
+
+.display #view {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 50% 50%;
+}
+
+.display #player_wins {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 1rem;
+}
+
+.display #computer_wins {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 1rem;
+    padding-right: 1rem;
+}
+
+.display .counts {
+    color: white;
+    font-size: 1.75rem;
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 10px;
+}
+
+.controls {
+    background: lightslategrey;
+    border-radius: 5px;
+}
+
+.controls .buttons {
+    padding: 3rem;
+    display: grid;
+    grid-gap: 3%;
+    grid-template-columns: 30% 30% 30%;
+}
+
+.controls .button {
+    padding: 1rem;
+    color: white;
+    background: #53565d;
+    border-radius: 0.3rem;
+    text-align: center;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.controls .button:hover {
+    background: #565e64;
+    color: black;
+}
