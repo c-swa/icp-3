@@ -14,6 +14,9 @@ let computerHand = {
     selection:rock_paper_scissor[null]
 }
 
+function computerSelect(){
+    computerHand.selection = rock_paper_scissor[Math.floor(Math.random()*3)];
+}
 
 // game logic
 function checkHand() {
