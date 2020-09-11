@@ -8,11 +8,11 @@ b. Design a basic UI.
 c. _Hint_: You can use a random number generator and conditional statements to build the application.
 
 #### Task Completion:
-a. (still in progress).
+a. Complete.
 
 b. Complete.
 
-c. (still in progress).
+c. Complete.
 
 ### Task 2 - RWD Task:
 a. Create a page that looks like the below mockup.
