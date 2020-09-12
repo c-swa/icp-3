@@ -8,14 +8,17 @@ let computerWins = 0
 
 const rock_paper_scissor = ["Rock", "Paper", "Scissor"]
 
+// Player Hand Object (what is currently selected by the player)
 let playerHand = {
     selection:rock_paper_scissor[null]
 }
 
+// Computer's selection
 let computerHand = {
     selection:rock_paper_scissor[null]
 }
 
+// Resets the game (the counters) to zero
 function reset(){
     playerWins = 0
     computerWins = 0
@@ -23,11 +26,12 @@ function reset(){
     document.getElementById("computer_count").innerHTML = computerWins;
 }
 
-// Computer logic
+// Random Number Generator for the computer to select it's "move"
 function computerSelect(){
     computerHand.selection = rock_paper_scissor[Math.floor(Math.random()*3)];
 }
 
+// Player Command to select rock when the "button" rock is selected
 function selectRock(){
     playerHand.selection = rock_paper_scissor[0]
     computerSelect();
@@ -49,6 +53,7 @@ function selectRock(){
     }
 }
 
+// Player selects Paper when the "paper" button is selected
 function selectPaper(){
     playerHand.selection = rock_paper_scissor[1]
     computerSelect();
@@ -70,6 +75,7 @@ function selectPaper(){
     }
 }
 
+// Player selects Scissor when the button is pressed for Scissor
 function selectScissor(){
     playerHand.selection = rock_paper_scissor[2]
     computerSelect()
