@@ -32,14 +32,14 @@ f. Two colored squares and their respective hexadecimal numbers are given on the
    part of the final page. 
    
 #### Task Completion:
-a. starting 
+a. Complete.
 
-b. 
+b. Complete.
 
-c. 
+c. Complete.
 
-d. 
+d. Complete.
 
-e. 
+e. Complete (Lato font selected).
 
-f.
+f. Colors set - Complete.
