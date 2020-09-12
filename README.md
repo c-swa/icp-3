@@ -43,3 +43,6 @@ d. Complete.
 e. Complete (Lato font selected).
 
 f. Colors set - Complete.
+
+## Screenshots
+Those are in the wiki - you can acces [here](https://github.com/c-swa/icp-3/wiki)
