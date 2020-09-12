@@ -45,7 +45,7 @@ e. Complete (Lato font selected).
 f. Colors set - Complete.
 
 ## Video Explanation
-[![Video Explanation of Code](https://youtu.be/iyGPQqvVBkE/0.jpg)](https://youtu.be/iyGPQqvVBkE "In Class Programming Assignment 3") 
+[![Video Explanation of Code](https://www.youtube.com/watch?v=iyGPQqvVBkE/0.jpg)](https://www.youtube.com/watch?v=iyGPQqvVBkE "In Class Programming Assignment 3") 
 
 ## Screenshots
 Those are in the wiki - you can acces [here](https://github.com/c-swa/icp-3/wiki)
